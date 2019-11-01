@@ -20,3 +20,13 @@ print (list[-1]) # last item
 
 del list[0] #deletes item at index
 print (list)
+
+#concatenate lists
+other_list = [5,4,3,2,1]
+print (list + other_list)
+
+#tupples look like lists, but are immutable
+
+tupple = (1,2,3)
+print(tupple)
+#tupple[0] = 3 # this will be a TypeError
