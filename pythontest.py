@@ -18,16 +18,44 @@ print(14//5) # is 2
 print(8.0/3)
 #modulo, same as JS
 print(11%3) # will be 2
+#exponents are **
+print(3**2, 'is 9') # add a string, comma separates
+#parenthesis works for math
+print(2+4) * 3 # is 18
 
+#BOOLEANS - capitalize
+True
+False
+#not is not, just like ! in JS
+print(not True) # False
+print(not False) # True
+#and and or
+print(True and False) # false
+print(True or False, 'will be true')
 
+#equals is ==, != for not equal
+print(0==2, 'is False')
+print(2!=2, 'is False')
 
+#< and <= work as expected
+print(3>2,'is True')
+print(2<1,'is False')
+print(3>=3,'is True')
+
+#len is length
+print(len('length'),'is 6')
+
+#string interpolation
+print("{0} is great, {0} is the best, {0} is super {1}".format('mike', 'amazing'))
+
+#this is an interest calculator, takes inputs and spits out total interest:
 # print('Interest Calculator:')
-# amount = float(input('Principal amount ?'))
-# roi = float(input('Rate of Interest ?'))
-# years = int(input('Duration (no. of years) ?'))
-# total = (amount * pow(1 + (roi/100), years))
-# interest = total - amount
-# print('\nInterest = %0.2f' %interest)
+amount = float(input('Principal amount ?'))
+roi = float(input('Rate of Interest ?'))
+years = int(input('Duration (no. of years) ?'))
+total = (amount * pow(1 + (roi/100), years))
+interest = total - amount
+print('\nInterest = %0.2f' %interest)
 
 import keyword
 print(keyword.iskeyword("keyword"))
